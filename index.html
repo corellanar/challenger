@@ -1,15 +1,39 @@
 <!DOCTYPE html>
-<html lang = "en">
-<head>
-     <meta charset = "UTF-8">
-     <title> Cursos de Alura </title>
-</head>
-<body>
-     <ul>
-         <li> Vagrant </li>
-         <li> Docker </li>
-         <li> Ansible </li>
-         <li> Integracion continua </li>
-     </ul>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Encriptador de texto</title>
+  </head>
+  <body>
+    <header>
+      <img src="./img/logo.png" alt="imagen de logo de Alura" class="logo__Alura" />
+    </header>
+    <main>
+      <div class="ingresotexto">
+        <textarea class="textarea"  name="ingreso" id="" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+        <div class="alerta">
+          <img src="./img/exclamacion.png" alt="alerta" class="imgalerta">
+          <P class="txtalerta">Solo letras minúsculas y sin acentos</P>
+        </div>
+        <div class="botones">
+          <button class="btnencriptar" type="button" value="Encriptar">Encriptar</button>
+          <button class="btndesencriptar" type="button" value="Desencriptar">Desencriptar</button>
+        </div>
+      </div>
+      <div class="salidatexto">
+        <img src="./img/muneco.png" alt="" class="imgmuneco">
+        <h3>Ningún mensaje fue encontrado</h3>
+        <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+        <div class="copiar">
+          <button class="btncopiar" type="button" value="Copiar">Copiar</button>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
+
